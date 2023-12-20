@@ -7,13 +7,13 @@
 
 
 ## Datasets
-We follow the setting [FSCIL](https://github.com/xyutao/fscil) to use simillar data index_list for training. 
+We follow the setting of [FSCIL](https://github.com/xyutao/fscil) to use simillar data index_list for training. 
 you need strictly follow the guidelines found in [CEC](https://github.com/icoz69/CEC-CVPR2021) to prepare them.
 Scripts for experiments on mini-imagenet are as follows, and the full codes will be available upon acceptance:
 
 ## Pretrain scripts 
 mini-imagenet 
-    $ python train.py --dataset mini-imagenet --exp_dir experiment --epoch 200 --batch_size 128 --init_lr 0.1 --milestones 80 160 --val_start 100 --change_val_interval 160
+    $ python trainfeya.py --dataset mini-imagenet --exp_dir experiment --epoch 200 --batch_size 128 --init_lr 0.1 --milestones 80 160 --val_start 100 --change_val_interval 160
 
 
 ## Testing scripts    
