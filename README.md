@@ -1,6 +1,6 @@
 
 # [NEUROCOM] Class Similarity Weighted Knowledge Distillation for Few Shot Incremental Learning
-![framework]
+
 
 ## Requirements
 - [PyTorch >= version 1.4](https://pytorch.org)
