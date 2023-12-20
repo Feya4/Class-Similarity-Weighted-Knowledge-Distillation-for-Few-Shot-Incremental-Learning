@@ -24,7 +24,7 @@ mini-imagenet
 ## Acknowledgment
 Our project references the codes in the following repos.
 
--[CEC](https://github.com/icoz69/CEC-CVPR2021)
+- [CEC](https://github.com/icoz69/CEC-CVPR2021)
 - [fscil](https://github.com/xyutao/fscil)
 - [BiDistFSCIL](https://github.com/LinglanZhao/BiDistFSCIL.git)
 - [FACT](https://github.com/zhoudw-zdw/CVPR22-Fact)
