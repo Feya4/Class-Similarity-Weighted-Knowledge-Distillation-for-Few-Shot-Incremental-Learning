@@ -12,7 +12,7 @@ you need strictly follow the guidelines found in [CEC](https://github.com/icoz69
 Scripts for experiments on mini-imagenet are as follows, and the full codes will be available upon acceptance:
 
 ## Pretrain scripts 
-mini-imagenet 
+ mini-imagenet (We will provide our pre-trained model soon.)
     $ python trainfeya.py --dataset mini-imagenet --exp_dir experiment --epoch 200 --batch_size 128 --init_lr 0.1 --milestones 80 160 --val_start 100 --change_val_interval 160
 
 
