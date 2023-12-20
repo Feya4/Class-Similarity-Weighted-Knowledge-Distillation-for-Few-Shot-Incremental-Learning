@@ -1,4 +1,4 @@
-# FeyaFSCIL1
+
 # [NEUROCOM] Class Similarity Weighted Knowledge Distillation for Few Shot Incremental Learning
 ![framework]
 
