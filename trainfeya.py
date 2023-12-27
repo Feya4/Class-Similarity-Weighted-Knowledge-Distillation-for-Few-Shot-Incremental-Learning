@@ -17,13 +17,12 @@ from torch.optim.lr_scheduler import StepLR
 from torch.optim.lr_scheduler import MultiStepLR
 from torch.utils.tensorboard import SummaryWriter 
 
-from utils.feyadata_utils import *
+from utils.D_utils import *
 from dataloader.samplers import *
-#from methods.cosine_classifier2 import CosClassifier
 from methods.feyaClassifier import feyaClassifier
 
-from utils.utils import * 
-from utils.fsl_inc import * 
+from utils.utils_inc import * 
+from utils.f_inc import * 
 from sync_batchnorm import convert_model
 import psutil
 import time
