@@ -22,7 +22,7 @@ from dataloader.samplers import *
 from methods.feyaClassifier import feyaClassifier
 
 from utils.utils_inc import * 
-from utils.f_inc import * 
+from methods.f_inc import * 
 from sync_batchnorm import convert_model
 import psutil
 import time
