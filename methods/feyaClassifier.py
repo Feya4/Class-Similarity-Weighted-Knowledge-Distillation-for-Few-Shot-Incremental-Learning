@@ -16,15 +16,14 @@ import random
 import tqdm
 import logging
 from copy import deepcopy
-#from utils.utils import * 
-from utils.utils import *
-from utils.fsl_inc import * 
-from dataloader.feyadata_utils import *
+from Utils.utils_inc import *
+from utils.f_inc import * 
+from utils.D_utils import *
 from dataloader.samplers import *
 from dataloader.exemplar_set import ExemplarSet
 from models.resnet18_encoder import *
 from models.resnet20_cifar import *
-from models.binary_classifier import BinaryNet
+from models.D_classifier import DNet
 from models.mlp_models import ScalarNet
 
 
