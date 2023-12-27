@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-class BinaryNet(nn.Module):
+class DNet(nn.Module):
     '''
     simple binary classification network with 1 hidden layer
     '''
