@@ -12,7 +12,7 @@ from dataloader.autoaugment_mini import AutoAugImageNetPolicy
 
 class MiniImageNet(Dataset):
 
-    def __init__(self, root='C:/Users/feya/FeyaFSCILtest/data/', train=True,
+    def __init__(self, root=''/media/meng1/disk1/feidu/projects/FeyaFSCIL/data', train=True,
                  transform=None,
                  index_path=None, index=None, base_sess=None):
         if train:
