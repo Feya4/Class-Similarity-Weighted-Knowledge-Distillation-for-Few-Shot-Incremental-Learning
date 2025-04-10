@@ -4,7 +4,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import sys
 import os
-sys.path.append(os.path.abspath('/media/meng1/disk1/feidu/projects/FeyaFSCIL/'))
+sys.path.append(os.path.abspath('./FeyaFSCIL/'))
 import random
 import warnings
 import numpy as np
