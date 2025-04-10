@@ -15,10 +15,10 @@ import numpy as np
 # em
 # # Save embeddings and labels to a pickle file
 # data = {'embeddings': embeddings, 'labels': labels}
-# with open('/media/meng1/disk1/feidu/projects/FeyaFSCIL/logs/session1.pkl', 'wb') as f:
+# with open('./FeyaFSCIL/logs/session1.pkl', 'wb') as f:
 #     pickle.dump(data, f)
 
-pkl_path = '/media/meng1/disk1/feidu/projects/FeyaFSCIL/logs/session0.pkl'
+pkl_path = './FeyaFSCIL/logs/session0.pkl'
 with open(pkl_path, 'rb') as f:
     data = pickle.load(f)
 
@@ -62,4 +62,4 @@ plt.yticks([])
 
 plt.show()
 
-plt.savefig('/media/meng1/disk1/feidu/projects/FeyaFSCIL/tsne.png', bbox_inches='tight')
+plt.savefig('./FeyaFSCIL/tsne.png', bbox_inches='tight')
