@@ -38,7 +38,7 @@ memory_before = psutil.virtual_memory().used
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     # experiments arguments
-    parser.add_argument('--dataroot', type=str, default='/media/meng1/disk1/feidu/projects/FeyaFSCIL/data/')
+    parser.add_argument('--dataroot', type=str, default='./disk1/feidu/projects/FeyaFSCIL/data/')
     parser.add_argument('--dataset', type=str, default='mini-imagenet')#mini-imagenet
     parser.add_argument('--methods', type=str, default='imprint')
     parser.add_argument('--b_mode', type=str, default='avg_cos')
@@ -184,7 +184,7 @@ if __name__ == '__main__':
     
     # evaluation on all incremental sessions
     list_acc = modeltest.test_inc_loop()
-    filename = '/media/meng1/disk1/feidu/projects/FeyaFSCIL/memory/memory_usage1.txt'
+    filename = './disk1/feidu/projects/FeyaFSCIL/memory/memory_usage1.txt'
   
     x = range(len(list_acc))
     plt.plot(x, list_acc)
