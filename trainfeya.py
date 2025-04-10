@@ -37,7 +37,7 @@ memory_before = psutil.virtual_memory().used
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     # experiments arguments
-    parser.add_argument('--dataroot', type=str, default='/media/meng1/disk1/feidu/projects/FeyaFSCIL/data')
+    parser.add_argument('--dataroot', type=str, default='data root path')
    # parser.add_argument('--dataset', type=str, default='mini-imagenet')
     parser.add_argument('--dataset', type=str, default='cifar100')
     #parser.add_argument('--dataset', type=str, default='cub200')
