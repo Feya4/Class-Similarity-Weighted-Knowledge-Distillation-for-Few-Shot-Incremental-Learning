@@ -69,7 +69,7 @@ def get_dataloader(args,session):
 
 
 def get_dataloader_base(args):
-    txt_path = "/media/meng1/disk1/feidu/projects/FeyaFSCIL/data/index_list/" + args.dataset + "/session_" + str(0 + 1) + '.txt'
+    txt_path = "./FeyaFSCIL/data/index_list/" + args.dataset + "/session_" + str(0 + 1) + '.txt'
     class_index = np.arange(args.base_class)
     if args.dataset == 'cifar100':
 
@@ -98,7 +98,7 @@ def get_dataloader_base(args):
 
 
 def get_dataloader_new(args):
-    txt_path = "/media/meng1/disk1/feidu/projects/FeyaFSCIL/data/index_list/" + args.dataset + "/session_" + str(0 + 1) + '.txt'
+    txt_path = "./FeyaFSCIL/data/index_list/" + args.dataset + "/session_" + str(0 + 1) + '.txt'
     class_index = np.arange(args.base_class)
     if args.dataset == 'cifar100':
         trainset = args.Dataset.CIFAR100(root=args.dataroot, train=True, download=True,
@@ -131,7 +131,7 @@ def get_dataloader_new(args):
 
 
 def get_new_dataloader(args,session):
-    txt_path = "/media/meng1/disk1/feidu/projects/FeyaFSCIL/data/index_list/" + args.dataset + "/session_" + str(session + 1) + '.txt'
+    txt_path = "./FeyaFSCIL/data/index_list/" + args.dataset + "/session_" + str(session + 1) + '.txt'
     if args.dataset == 'cifar100':
         class_index = open(txt_path).read().splitlines()
         trainset = args.Dataset.CIFAR100(root=args.dataroot, train=True, download=False,
